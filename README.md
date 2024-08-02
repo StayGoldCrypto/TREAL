@@ -1,2 +1,0 @@
-# TREAL
-Real State Token

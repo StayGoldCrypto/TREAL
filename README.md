@@ -11,7 +11,7 @@ The Minimal Wallet DApp is designed to provide users with a simple and secure wa
 - **Account Management**: Create, import, and manage wallets.
 - **Token Transactions**: Send and receive TREAL tokens.
 - **Integration**: Seamless connection with the Vara Network and Gear Protocol.
-- **Detailed Road Map**: [TREAL - P1 - RoadMap](https://github.com/StayGoldCrypto/TREAL/P1/README.md)
+- **Detailed Road Map**: [TREAL - P1 - RoadMap](P1/README.md)
 
 ### Technology Stack
 - **Frontend**: TypeScript, React
@@ -32,7 +32,7 @@ The Minimal Wallet DApp is designed to provide users with a simple and secure wa
 - **Frontend**: TypeScript, React
 - **Blockchain**: Vara Network, Gear Protocol
 - **Tools**: Polkadot.js, Ethers.js
-- **Detailed Road Map**: [TREAL - P2 - RoadMap](https://github.com/StayGoldCrypto/TREAL/P2/README.md)
+- **Detailed Road Map**: [TREAL - P2 - RoadMap](P2/README.md)
 
 ### Installation and Setup
 1. **Clone the repository**:

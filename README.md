@@ -20,7 +20,7 @@ The Minimal Wallet DApp is designed to provide users with a simple and secure wa
 
 ### Installation and Setup
 1. **Clone the repository**:
-   [TREAL - P1](https://github.com/StayGoldCrypto/TREAL/P1/mini-wallet-dapp.git)
+   [TREAL - P1](https://github.com/StayGoldCrypto/TREAL/P1/polkadot-varanetwork-mini-wallet-dapp.git)
 
 ## Project 2: Minimal Property Management DApp for Investors (Q4 2024)
 The Minimal Wallet DApp is designed to provide users with a simple and secure way to manage their TREAL tokens on the Vara Network. Key features include:
@@ -32,10 +32,11 @@ The Minimal Wallet DApp is designed to provide users with a simple and secure wa
 - **Frontend**: TypeScript, React
 - **Blockchain**: Vara Network, Gear Protocol
 - **Tools**: Polkadot.js, Ethers.js
+- **Detailed Road Map**: [TREAL - P2 - RoadMap](https://github.com/StayGoldCrypto/TREAL/P2/README.md)
 
 ### Installation and Setup
 1. **Clone the repository**:
-   [TREAL - P2](https://github.com/StayGoldCrypto/TREAL/P2/investor-dashboard-dapp.git)
+   [TREAL - P2](https://github.com/StayGoldCrypto/TREAL/P2/polkadot-varanetwork-investor-dashboard-dapp.git)
 
 ## Common Coding Libraries: 
 1. **Clone the repository**:

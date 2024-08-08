@@ -58,3 +58,25 @@ This project is a decentralized application (DApp) designed to attract investors
    ```bash
    git clone https://github.com/StayGoldCrypto/TREAL/P2/polkadot-varanetwork-investor-dashboard-dapp.git
    cd property-management-dapp
+
+2. **Install Dependencies:**:
+   ```bash
+   npm install
+
+3. **Set up TypeScript:**:
+   ```bash
+   npx tsc --init
+
+### Property Management Code
+
+1. **Install Required Libraries:**:
+2. **Create Property Listing Component (src/PropertyListing.tsx):**
+3. **Create Investment Dashboard Component (src/InvestmentDashboard.tsx):**
+4. **Create Main App Component (src/App.tsx):**
+5. **Index File (src/index.tsx):**
+6. **HTML Template (public/index.html):**
+7. **TypeScript Configuration (tsconfig.json):**
+
+### Running the DApp
+
+1. **Build and Run the Project:**:

@@ -44,4 +44,4 @@ The Minimal Wallet DApp is designed to provide users with a simple and secure wa
 
 ## Training code samples for POLKADOT - GEAR PROTOCOL - VARA NETWORK : 
 1. **Repository**:
-   [TREAL - Common Libraries](training)
+   [TREAL - Coding and Training Samples](training)

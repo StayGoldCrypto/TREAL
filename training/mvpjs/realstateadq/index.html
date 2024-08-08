@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            padding: 20px;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .section {
+            width: 48%;
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .loan-item, .property-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .loan-item button, .property-item button {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Loan Dashboard</h1>
+    </div>
+    <div class="container">
+        <div class="dashboard">
+            <div class="section" id="borrower-section">
+                <h2>Borrower Dashboard</h2>
+                <div id="borrower-loans"></div>
+            </div>
+            <div class="section" id="lender-section">
+                <h2>Lender Dashboard</h2>
+                <div id="lender-loans"></div>
+            </div>
+            <div class="section" id="real-estate-section">
+                <h2>Real Estate Properties</h2>
+                <div id="properties"></div>
+                <h3>Add New Property</h3>
+                <form id="property-form">
+                    <input type="text" id="property-address" placeholder="Property Address" required>
+                    <input type="number" id="property-value" placeholder="Property Value" required>
+                    <button type="submit">Add Property</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        async function fetchLoans() {
+            const response = await fetch('/loans');
+            const loans = await response.json();
+            displayBorrowerLoans(loans);
+            displayLenderLoans(loans);
+        }
+
+        async function fetchProperties() {
+            const response = await fetch('/properties');
+            const properties = await response.json();
+            displayProperties(properties);
+        }
+
+        function displayBorrowerLoans(loans) {
+            const borrowerLoans = loans.filter(loan => loan.applicant === 'borrower'); // Example filter
+            const borrowerSection = document.getElementById('borrower-loans');
+            borrowerSection.innerHTML = '';
+            borrowerLoans.forEach(loan => {
+                const loanItem = document.createElement('div');
+                loanItem.className = 'loan-item';
+                loanItem.innerHTML = `
+                    <strong>Loan ID:</strong> ${loan.id}<br>
+                    <strong>Amount:</strong> ${loan.amount}<br>
+                    <strong>Status:</strong> ${loan.status}<br>
+                `;
+                borrowerSection.appendChild(loanItem);
+            });
+        }
+
+        function displayLenderLoans(loans) {
+            const lenderLoans = loans.filter(loan => loan.status === 'Pending'); // Example filter
+            const lenderSection = document.getElementById('lender-loans');
+            lenderSection.innerHTML = '';
+            lenderLoans.forEach(loan => {
+                const loanItem = document.createElement('div');
+                loanItem.className = 'loan-item';
+                loanItem.innerHTML = `
+                    <strong>Loan ID:</strong> ${loan.id}<br>
+                    <strong>Amount:</strong> ${loan.amount}<br>
+                    <strong>Status:</strong> ${loan.status}<br>
+                    <button onclick="approveLoan(${loan.id})">Approve</button>
+                    <button onclick="rejectLoan(${loan.id})">Reject</button>
+                    <button onclick="disburseLoan(${loan.id})">Disburse</button>
+                `;
+                lenderSection.appendChild(loanItem);
+            });
+        }
+
+        function displayProperties(properties) {
+            const propertiesSection = document.getElementById('properties');
+            propertiesSection.innerHTML = '';
+            properties.forEach(property => {
+                const propertyItem = document.createElement('div');
+                propertyItem.className = 'property-item';
+                propertyItem.innerHTML = `
+                    <strong>Property ID:</strong> ${property.id}<br>
+                    <strong>Address:</strong> ${property.address}<br>
+                    <strong>Value:</strong> ${property.value}<br>
+                `;
+                propertiesSection.appendChild(propertyItem);
+            });
+        }
+
+        async function approveLoan(loanId) {
+            const response = await fetch('/approve-loan', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ loanId })
+            });
+            const result = await response.json();
+            if (result.success) {
+                alert('Loan approved successfully!');
+                fetchLoans();
+            } else {
+                alert('Failed to approve loan');
+            }
+        }
+
+        async function rejectLoan(loanId) {
+            const response = await fetch('/reject-loan', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ loanId })
+            });
+            const result = await response.json();
+            if (result.success) {
+                alert('Loan rejected successfully!');
+                fetchLoans();
+            } else {
+                alert('Failed to reject loan');
+            }
+        }
+
+        async function disburseLoan(loanId) {
+            const response = await fetch('/disburse-loan', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ loanId })
+            });
+            const result = await response.json();
+            if (result.success) {
+                alert('Loan disbursed successfully!');
+                fetchLoans();
+            } else {
+                alert('Failed to disburse loan');
+            }
+        }
+
+        document.getElementById('property-form').addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const address = document.getElementById('property-address').value;
+            const value = document.getElementById('property-value').value;
+            const response = await fetch('/add-property', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ address, value })
+            });
+            const result = await response.json();
+            if (result.success) {
+                alert('Property added successfully!');
+                fetchProperties();
+            } else {
+                alert('Failed to add property');
+            }
+        });
+
+        // Fetch loans and properties on page load
+        fetchLoans();
+        fetchProperties();
+    </script>
+</body>
+</html>

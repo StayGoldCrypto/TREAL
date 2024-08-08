@@ -13,7 +13,7 @@ This project is a simple, user-friendly decentralized application (DApp) for man
 - **Backend**: Node.js, Express
 - **Blockchain**: Vara Network
 - **Token Standard**: Custom ERC20 equivalent (TREAL)
-- **Tools**: Polkadot.js, Ethers.js
+- **Tools**: Polkadot.js, Ethers.js, Gear Protocol
 
 ## Roadmap
 
@@ -46,6 +46,8 @@ This project is a simple, user-friendly decentralized application (DApp) for man
    - Officially launch the Simple Wallet DApp.
    - Continue building and supporting the community.
    - Plan for future updates and feature enhancements.
+  
+This roadmap could be extended in time about 100% more preventing project deviations
 
 ## Installation
 
@@ -57,5 +59,5 @@ This project is a simple, user-friendly decentralized application (DApp) for man
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/StayGoldCrypto/TREAL/P1/polkadot-varanetwork-mini-wallet-dapp.git
-   cd simple-wallet-dapp
+   cd polkadot-varanetwork-mini-wallet-dapp
 

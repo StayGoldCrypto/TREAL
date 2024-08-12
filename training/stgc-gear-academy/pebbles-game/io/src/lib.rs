@@ -1,3 +1,8 @@
+use gmeta::{Metadata, In, InOut, Out};
+use gstd::prelude::*;
+use parity_scale_codec::{Encode, Decode};
+use scale_info::TypeInfo;
+
 #[derive(Debug, Default, Clone, Encode, Decode, TypeInfo)]
 pub struct PebblesInit {
     pub difficulty: DifficultyLevel,

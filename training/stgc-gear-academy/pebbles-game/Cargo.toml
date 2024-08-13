@@ -1,5 +1,5 @@
 [package]
-name = "pebbles-game"
+name = "stgc-pebbles-game"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,6 +7,15 @@ edition = "2021"
 pebbles-game-io = { path = "./io" }
 gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.1" }
 gmeta = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.1" }
+
+[build-dependencies]
+gear-wasm-builder ={ git ="https://github.com/gear-tech/gear.git",tag ="v1.4.1" }
+pebbles-game-io.path = "io"
+
+[dev-dependencies]
+gmeta = { git ="https://github.com/gear-tech/gear.git", tag ="v1.4.1" }
+pebbles-game-io.path = "io"
+
 [workspace]
 members = [
     "io",

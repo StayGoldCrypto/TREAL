@@ -2,6 +2,7 @@
 name = "stgc-pebbles-game"
 version = "0.1.0"
 edition = "2021"
+authors = ["STGC <staygoldcrypto.com@gmail.com>", "MarkDgz <tnemexico@gmail.com>"]
 
 [dependencies]
 pebbles-game-io = { path = "./io" }

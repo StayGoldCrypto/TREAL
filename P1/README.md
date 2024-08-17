@@ -1,6 +1,6 @@
 # Simple Wallet DApp on Vara Network
 
-#Notice
+## Notice
 This demo is partial and only shows the main idea for this project, is not fully functional with VaraNetwork smart contracts yet.
 
 ## Overview

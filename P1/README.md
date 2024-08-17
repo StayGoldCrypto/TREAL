@@ -1,5 +1,8 @@
 # Simple Wallet DApp on Vara Network
 
+#Notice
+This demo is partial and only shows the main idea for this project, is not fully functional with VaraNetwork smart contracts yet.
+
 ## Overview
 This project is a simple, user-friendly decentralized application (DApp) for managing TREAL tokens on the Vara Network. The application allows users to create and manage wallets, send and receive TREAL tokens, and view transaction history.
 

@@ -5,26 +5,26 @@ This project is a simple, user-friendly decentralized application (DApp) for man
 
 ## Features
 - Wallet creation and management
-- Sending and receiving TREAL tokens
-- Viewing transaction history
+- Sending and receiving TREAL tokens (Working on)
+- Viewing transaction history (Working on)
 
 ## Technology Stack
 - **Frontend**: TypeScript, React
-- **Backend**: Node.js, Express
+- **Backend**: Node.js, ViteJs
 - **Blockchain**: Vara Network
-- **Token Standard**: Custom ERC20 equivalent (TREAL)
-- **Tools**: Polkadot.js, Ethers.js, Gear Protocol
+- **Token Standard**: Custom ERC20 equivalent (TREAL) (Working on)
+- **Tools**: Polkadot.js, Gear Protocol
 
 ## Roadmap
 
 1. **Week 1**: Project Planning and Research
    - Define project scope and requirements.
-   - Conduct research on Vara Network and TREAL token specifications.
-   - Set up development environment.
+   - Research Vara Network and TREAL token specifications.
+   - Set up a development environment.
 
 2. **Week 2**: Development of Basic Wallet Functions
    - Implement wallet creation and import functionalities.
-   - Develop UI for displaying wallet balance and transaction history.
+   - Develop UI to display wallet balance and transaction history.
    - Test basic wallet features.
 
 3. **Week 3**: Integration of TREAL Token
@@ -47,7 +47,7 @@ This project is a simple, user-friendly decentralized application (DApp) for man
    - Continue building and supporting the community.
    - Plan for future updates and feature enhancements.
   
-This roadmap could be extended in time about 100% more preventing project deviations
+This roadmap could be extended in time by about 100% more preventing project deviations
 
 ## Installation
 
@@ -58,6 +58,6 @@ This roadmap could be extended in time about 100% more preventing project deviat
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/StayGoldCrypto/TREAL/P1/polkadot-varanetwork-mini-wallet-dapp.git
+   git clone https://github.com/StayGoldCrypto/TREAL/P1/polkadot-varanetwork-mini-wallet-dapp/d-app.git
    cd polkadot-varanetwork-mini-wallet-dapp
 

@@ -92,9 +92,10 @@ This directory structure helps you understand where the different components of 
 
 ### Gitpod
 [Open in Gitpod README.md format](https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/training/samples/TRS-token-real-state)
-<a href="https://gitpod.io/#https://github.com/your-username/your-repository" target="_blank">Open in Gitpod a tag</a>
 
-### Project Path Files
+<a href="https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/training/samples/TRS-token-real-state" target="_blank">Open in Gitpod a tag</a>
+
+### Projected Path Files
 
 ```rust
 /*

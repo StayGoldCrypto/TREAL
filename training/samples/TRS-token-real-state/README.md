@@ -87,7 +87,6 @@ This directory structure helps you understand where the different components of 
 
 ### Project Path Files
 
-```markdown
 ```rust
 /*
 trs-token-real-estate/
@@ -139,7 +138,7 @@ trs-token-real-estate/
 │ └── README.md
 └── LICENSE
 */
-
+```
 ---
 
 # DAYLY TO DO

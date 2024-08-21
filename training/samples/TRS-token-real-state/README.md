@@ -87,6 +87,9 @@ This directory structure helps you understand where the different components of 
 
 ### Project Path Files
 
+```markdown
+```rust
+/*
 trs-token-real-estate/
 ├── contracts/
 │ └── trs_token/
@@ -138,4 +141,5 @@ trs-token-real-estate/
 │ ├── vite.config.ts
 │ └── README.md
 └── LICENSE
-
+*/
+```markdown

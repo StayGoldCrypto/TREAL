@@ -87,58 +87,52 @@ This directory structure helps you understand where the different components of 
 
 ### Project Path Files
 
-trs-token-real-state/
-│
+trs-token-real-estate/
 ├── contracts/
-│   └── trs_token/
-│       ├── src/
-│       │   ├── lib.rs
-│       │   ├── error.rs
-│       │   └── tests.rs
-│       ├── Cargo.toml
-│       └── README.md
-│
+│ └── trs_token/
+│ ├── Cargo.toml
+│ ├── src/
+│ │ ├── lib.rs
+│ │ ├── error.rs
+│ │ └── tests.rs
+│ └── README.md
 ├── backend/
-│   ├── src/
-│   │   ├── main.rs
-│   │   ├── routes/
-│   │   │   ├── mod.rs
-│   │   │   ├── balance.rs
-│   │   │   ├── tokens.rs
-│   │   │   └── loans.rs
-│   │   ├── models/
-│   │   │   ├── mod.rs
-│   │   │   ├── account.rs
-│   │   │   ├── token.rs
-│   │   │   └── loan.rs
-│   │   └── config.rs
-│   ├── Cargo.toml
-│   └── README.md
-│
+│ ├── Cargo.toml
+│ ├── src/
+│ │ ├── main.rs
+│ │ ├── routes/
+│ │ │ ├── mod.rs
+│ │ │ ├── balance.rs
+│ │ │ ├── tokens.rs
+│ │ │ └── loans.rs
+│ │ ├── models/
+│ │ │ ├── mod.rs
+│ │ │ ├── account.rs
+│ │ │ ├── token.rs
+│ │ │ └── loan.rs
+│ │ └── config.rs
+│ └── README.md
 ├── frontend/
-│   ├── public/
-│   │   └── index.html
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── App.tsx
-│   │   │   ├── Tabs.tsx
-│   │   │   ├── AccountBalance.tsx
-│   │   │   ├── PropertyList.tsx
-│   │   │   ├── InvestmentDashboard.tsx
-│   │   │   ├── Modal.tsx
-│   │   │   ├── Wallet.tsx
-│   │   │   └── WalletModal.tsx
-│   │   ├── styles/
-│   │   │   └── global.css
-│   │   ├── App.tsx
-│   │   ├── index.tsx
-│   │   └── api.ts
-│   ├── tsconfig.json
-│   ├── package.json
-│   ├── vite.config.ts
-│   └── README.md
-│
-├── README.md
+│ ├── package.json
+│ ├── public/
+│ │ └── index.html
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── App.tsx
+│ │ │ ├── Tabs.tsx
+│ │ │ ├── AccountBalance.tsx
+│ │ │ ├── PropertyList.tsx
+│ │ │ ├── InvestmentDashboard.tsx
+│ │ │ ├── Modal.tsx
+│ │ │ ├── Wallet.tsx
+│ │ │ └── WalletModal.tsx
+│ │ ├── styles/
+│ │ │ └── global.css
+│ │ ├── App.tsx
+│ │ ├── index.tsx
+│ │ └── api.ts
+│ ├── tsconfig.json
+│ ├── vite.config.ts
+│ └── README.md
 └── LICENSE
-
 

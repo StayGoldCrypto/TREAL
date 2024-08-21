@@ -63,7 +63,6 @@
 
 **TRS - Token Real State for Training** aims to revolutionize the real estate market by leveraging blockchain technology to enable fractional ownership, secure lending, and transparent transactions.
 
-
 # TRS - TEST Token Real Estate
 
 ## Project Structure
@@ -72,16 +71,22 @@ This project is organized into different directories to manage the smart contrac
 
 ### Directory Description
 
-- **contracts/**: Contains the source code for the smart contract written in Rust.
+- **contracts/**: Contains source code for the smart contract written in Rust.
   - **trs_token/**: Specific project for the TRS token, including the contract logic and tests.
   
 - **backend/**: Rust project serving as the backend for the application.
   - **src/**: Source code for the backend.
     - **routes/**: Directory containing API routes such as `/balance` and `/tokens`.
+    - **models/**: Contains models used by the backend.
+    - **config.rs**: Configuration file for the backend.
 
 - **frontend/**: React/TypeScript project that makes up the user interface.
-  - **src/components/**: Contains React components like `AccountBalance`, `PropertyList`, and `InvestmentDashboard`.
+  - **public/**: Contains static files like `index.html`.
+  - **src/components/**: React components like `AccountBalance`, `PropertyList`, and `InvestmentDashboard`.
   - **assets/**: Static files such as images and CSS styles.
+  - **api.ts**: Contains API utility functions.
+  - **tsconfig.json**: TypeScript configuration file.
+  - **vite.config.ts**: Configuration file for Vite.
 
 This directory structure helps you understand where the different components of your application are located and how they interact with each other.
 

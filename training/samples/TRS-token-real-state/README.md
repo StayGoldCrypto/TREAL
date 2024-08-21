@@ -91,7 +91,8 @@ This project is organized into different directories to manage the smart contrac
 This directory structure helps you understand where the different components of your application are located and how they interact with each other.
 
 ### Gitpod
-[Open in Gitpod](https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/training/samples/TRS-token-real-state)
+[Open in Gitpod README.md format](https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/training/samples/TRS-token-real-state)
+<a href="https://gitpod.io/#https://github.com/your-username/your-repository" target="_blank">Open in Gitpod a tag</a>
 
 ### Project Path Files
 

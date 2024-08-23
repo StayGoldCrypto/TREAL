@@ -1,0 +1,76 @@
+[workspace]
+resolver = "2"
+# Keep in the lexicographic order!
+# Remove a member if it's used as a dependency in the workspace.
+members = [
+    "trs_token",
+    "trs_token/io",
+]
+
+[workspace.package]
+homepage = "https://staygoldcrypto.com/tokens/TREAL"
+documentation = "https://staygoldcrypto.com/tokens/TREAL"
+authors = ["Stay Gold Crypto Com <sabrina@staygoldcrypto.com>"]
+version = "1.1.0"
+license = "MIT"
+edition = "2021"
+publish = false
+
+[workspace.dependencies]
+# Local contracts
+# Keep in the lexicographic order!
+
+trs_token.path = "trs_token"
+
+# Local states
+# Keep in the lexicographic order!
+
+
+# Local IO-crates
+# Keep in the lexicographic order!
+
+trs_token_io.path = "trs_token/io"
+
+# Local libraries
+# Keep in the lexicographic order!
+
+gear-lib.path = "gear-lib"
+gear-lib-old.path = "gear-lib-old"
+gear-lib-derive.path = "gear-lib-old/derive"
+rmrk-types.path = "rmrk/types"
+supply-chain-deploy.path = "supply-chain/deploy"
+
+# Gear
+
+gstd = "1.5.0"
+gear-wasm-builder = "1.5.0"
+gmeta = "1.5.0"
+gclient = "1.5.0"
+gtest = "1.4.2"
+gear-core = "1.5.0"
+
+# External
+
+primitive-types = { version = "0.12", default-features = false }
+sp-core = { version = "21.0.0", default-features = false, features = ["full_crypto", "sp-externalities"] }
+sp-core-hashing = { version = "10", default-features = false }
+tokio = "1"
+blake2-rfc = "0.2"
+hex-literal = "0.4"
+hex = { version = "0.4", default-features = false }
+async-trait = "0.1"
+rand = { version = "0.8", default-features = false }
+rand_xoshiro = "0.6"
+indexmap = { version = "2", default-features = false }
+ahash = { version = "0.8", default-features = false, features = ["no-rng"] }
+schnorrkel = { version = "0.10", default-features = false, features = ["u64_backend"] }
+syn = { version = "2", default-features = false }
+quote = "1"
+clap = { version = "4", default-features = false, features = ["std"] }
+enum-iterator = "1"
+xshell = "0.2"
+anyhow = "1"
+sha2 = "0.10"
+num-traits = { version = "0.2", default-features = false }
+scale-info = { version = "2", default-features = false }
+parity-scale-codec = { version = "3", default-features = false }

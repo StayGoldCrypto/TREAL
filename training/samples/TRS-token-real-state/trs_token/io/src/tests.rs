@@ -1,4 +1,4 @@
-use trs_token-io::*;
+use trs_token_io::*;
 use gstd::{Encode, String};
 use gtest::{Program, System};
 const USERS: &[u64] = &[3, 4, 5];

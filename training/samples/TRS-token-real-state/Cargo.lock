@@ -2031,8 +2031,20 @@ checksum = "90b03d2f25e0172da8087b074599254d29501cdf6f20e2f62fc7804fad618bea"
 dependencies = [
  "blake2",
  "derive_more",
+ "gmeta-codegen",
  "hex",
  "scale-info",
+]
+
+[[package]]
+name = "gmeta-codegen"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "15d6d25b8590e98e927a4f32830ee3099f717086fd9a377a6b2aab0e99a10b10"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.75",
 ]
 
 [[package]]
@@ -4801,6 +4813,8 @@ dependencies = [
  "gmeta",
  "gstd",
  "gtest",
+ "serde",
+ "serde_json",
  "trs_token_io",
 ]
 
@@ -4810,6 +4824,16 @@ version = "1.1.0"
 dependencies = [
  "gmeta",
  "gstd",
+]
+
+[[package]]
+name = "trs_token_state"
+version = "1.1.0"
+dependencies = [
+ "gear-wasm-builder",
+ "gmeta",
+ "gstd",
+ "trs_token_io",
 ]
 
 [[package]]

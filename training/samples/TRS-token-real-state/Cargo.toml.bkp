@@ -4,8 +4,7 @@ resolver = "2"
 # Remove a member if it's used as a dependency in the workspace.
 members = [
     "trs_token",
-    "trs_token/io",
-    "trs_token/state"
+    "trs_token_io"
 ]
 
 [workspace.package]

@@ -71,8 +71,8 @@ This project is organized into different directories to manage the smart contrac
 
 ### Directory Description
 
-- **contracts/**: Contains source code for the smart contract written in Rust.
-  - **trs_token/**: Specific project for the TRS token, including the contract logic and tests.
+- **training/TRS-token-real-state/**: Contains source code for the smart contract written in Rust.
+  - **trs_token_vara/**: Specific project for the TRS token, including the contract logic and tests.
   
 - **backend/**: Rust project serving as the backend for the application.
   - **src/**: Source code for the backend.

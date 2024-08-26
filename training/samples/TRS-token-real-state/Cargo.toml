@@ -2,7 +2,7 @@
 resolver = "2"
 # Keep in the lexicographic order!
 # Remove a member if it's used as a dependency in the workspace.
-members = [
+members = [ "backend", "frontend",
 #    "trs_token",
 #    "trs_token/io",
 #    "trs_token/state",

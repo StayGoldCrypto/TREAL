@@ -91,9 +91,7 @@ This project is organized into different directories to efficiently manage the s
 This directory structure helps you understand where the different components of your application are located and how they interact with each other.
 
 ### Gitpod
-[Open in Gitpod README.md format](https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/training/samples/TRS-token-real-state)
-
-<a href="https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/training/samples/TRS-token-real-state" target="_blank">Open in Gitpod a tag</a>
+<a href="https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/training/samples/TRS-token-real-state" target="_blank">Open in Gitpod</a>
 
 ### Projected Path Files
 

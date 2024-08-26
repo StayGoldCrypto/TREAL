@@ -100,14 +100,14 @@ This directory structure helps you understand where the different components of 
 ```rust
 /*
 trs-token-real-estate/
-├── contracts/
-│ └── trs_token/
-│ ├── Cargo.toml
-│ ├── src/
-│ │ ├── lib.rs
-│ │ ├── error.rs
-│ │ └── tests.rs
-│ └── README.md
+├── trs_token_vara/
+│ ├── app/*
+│ ├── wasm/*
+│ └── Cargo.toml
+├── trs_token_discontinued/*
+│── rust-toolchain.toml
+├── Cargo.toml
+│── README.md
 ├── backend/
 │ ├── Cargo.toml
 │ ├── src/

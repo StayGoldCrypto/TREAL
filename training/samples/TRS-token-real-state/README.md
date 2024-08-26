@@ -35,13 +35,13 @@
 - **Real Estate Investors:** Focus on traditional real estate investors looking for innovative financing and fractional ownership.
 - **Cryptocurrency Enthusiasts:** Appeal to the crypto community with the promise of a secure, blockchain-based real estate market.
 - **DeFi Users:** Target users interested in decentralized finance, offering them real estate-backed financial products.
-- **Institutional Investors:** Engage with institutional investors who are exploring asset-backed tokens and blockchain technology.
+- **Institutional Investors:** Engage with institutional investors exploring asset-backed tokens and blockchain technology.
 
 ### Key Marketing Channels
 - **Social Media Campaigns:** Utilize Twitter, LinkedIn, and Medium to share updates, educate the community, and engage with potential investors.
 - **Influencer Partnerships:** Collaborate with crypto and real estate influencers to expand reach and credibility.
 - **Content Marketing:** Regularly publish blogs, whitepapers, and case studies to educate the market on the benefits of TRS and the underlying technology.
-- **Community Engagement:** Develop an active community on Telegram, Discord, and Reddit, offering regular AMAs and community rewards.
+- **Community Engagement:** Develop an active Telegram, Discord, and Reddit community, offering regular AMAs and community rewards.
 - **Press Releases:** Distribute press releases to major crypto and real estate news outlets, announcing key milestones, partnerships, and product launches.
 
 ### Strategic Partnerships
@@ -67,20 +67,20 @@
 
 ## Project Structure
 
-This project is organized into different directories to manage the smart contract, backend, and frontend efficiently. Below is a description of the project's structure:
+This project is organized into different directories to efficiently manage the smart contract, backend, and frontend. Below is a description of the project's structure:
 
 ### Directory Description
 
 - **training/TRS-token-real-state/**: Contains source code for the smart contract written in Rust.
   - **trs_token_vara/**: Specific project for the TRS token, including the contract logic and tests.
   
-- **backend/**: Rust project serving as the backend for the application.
+- **backend/**: Rust project serving as the backend for the application. (To be initiated)
   - **src/**: Source code for the backend.
     - **routes/**: Directory containing API routes such as `/balance` and `/tokens`.
     - **models/**: Contains models used by the backend.
     - **config.rs**: Configuration file for the backend.
 
-- **frontend/**: React/TypeScript project that makes up the user interface.
+- **frontend/**: React/TypeScript project that makes up the user interface. (To be initiated)
   - **public/**: Contains static files like `index.html`.
   - **src/components/**: React components like `AccountBalance`, `PropertyList`, and `InvestmentDashboard`.
   - **assets/**: Static files such as images and CSS styles.

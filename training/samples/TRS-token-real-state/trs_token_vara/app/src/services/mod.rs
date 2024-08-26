@@ -1,2 +1,2 @@
-pub mod extended_vft;
+pub mod trs_vft;
 pub mod utils;

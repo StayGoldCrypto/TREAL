@@ -1,6 +1,6 @@
-use extended_vft_wasm::{
-    traits::{ExtendedVftFactory, Vft},
-    ExtendedVftFactory as Factory, Vft as VftClient,
+use trs_vft_wasm::{
+    traits::{trsVftFactory, Vft},
+    trsVftFactory as Factory, Vft as VftClient,
 };
 use sails_rs::calls::*;
 use sails_rs::gtest::calls::*;
@@ -11,10 +11,10 @@ async fn test_basic_function() {
     program_space.system().init_logger();
     let code_id = program_space
         .system()
-        .submit_code_file("../target/wasm32-unknown-unknown/release/extended_vft_wasm.opt.wasm");
+        .submit_code_file("../target/wasm32-unknown-unknown/release/trs_vft_wasm.opt.wasm");
 
-    let extended_vft_factory = Factory::new(program_space.clone());
-    let extended_vft_id = extended_vft_factory
+    let trs_vft_factory = Factory::new(program_space.clone());
+    let trs_vft_id = trs_vft_factory
         .new("name".to_string(), "symbol".to_string(), 10)
         .send_recv(code_id, "123")
         .await
@@ -24,13 +24,13 @@ async fn test_basic_function() {
     // mint
     client
         .mint(100.into(), 1_000.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
     // check balance
     let balance = client
         .balance_of(100.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 1_000.into());
@@ -38,13 +38,13 @@ async fn test_basic_function() {
     // burn
     client
         .burn(100.into(), 100.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
     // check balance
     let balance = client
         .balance_of(100.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 900.into());
@@ -52,19 +52,19 @@ async fn test_basic_function() {
     // transfer
     client
         .transfer(101.into(), 100.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
     // check balance
     let balance = client
         .balance_of(100.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 800.into());
     let balance = client
         .balance_of(101.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 100.into());
@@ -72,44 +72,44 @@ async fn test_basic_function() {
     // approve
     client
         .approve(102.into(), 100.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
     // check balance
     let balance = client
         .balance_of(100.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 800.into());
     let balance = client
         .balance_of(102.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 0.into());
     // transfer from
     client
         .transfer_from(100.into(), 101.into(), 100.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
     // check balance
     let balance = client
         .balance_of(100.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 700.into());
     let balance = client
         .balance_of(101.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 200.into());
     let balance = client
         .balance_of(102.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 0.into());
@@ -123,10 +123,10 @@ async fn test_grant_role() {
 
     let code_id = program_space
         .system()
-        .submit_code_file("../target/wasm32-unknown-unknown/release/extended_vft_wasm.opt.wasm");
+        .submit_code_file("../target/wasm32-unknown-unknown/release/trs_vft_wasm.opt.wasm");
 
-    let extended_vft_factory = Factory::new(program_space.clone());
-    let extended_vft_id = extended_vft_factory
+    let trs_vft_factory = Factory::new(program_space.clone());
+    let trs_vft_id = trs_vft_factory
         .new("name".to_string(), "symbol".to_string(), 10)
         .send_recv(code_id, "123")
         .await
@@ -136,27 +136,27 @@ async fn test_grant_role() {
     let res = client
         .mint(101.into(), 1_000.into())
         .with_args(GTestArgs::new(101.into()))
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await;
     assert!(res.is_err());
     // grant mint role
     client
         .grant_minter_role(101.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
-    let minters = client.minters().recv(extended_vft_id).await.unwrap();
+    let minters = client.minters().recv(trs_vft_id).await.unwrap();
     assert_eq!(minters, vec![100.into(), 101.into()]);
     let res = client
         .mint(101.into(), 1_000.into())
         .with_args(GTestArgs::new(101.into()))
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
     assert!(res);
     let balance = client
         .balance_of(101.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 1_000.into());
@@ -165,27 +165,27 @@ async fn test_grant_role() {
     let res = client
         .burn(101.into(), 1_000.into())
         .with_args(GTestArgs::new(101.into()))
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await;
     assert!(res.is_err());
     // grant burner role
     client
         .grant_burner_role(101.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
-    let burners = client.burners().recv(extended_vft_id).await.unwrap();
+    let burners = client.burners().recv(trs_vft_id).await.unwrap();
     assert_eq!(burners, vec![100.into(), 101.into()]);
     let res = client
         .burn(101.into(), 1_000.into())
         .with_args(GTestArgs::new(101.into()))
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
     assert!(res);
     let balance = client
         .balance_of(101.into())
-        .recv(extended_vft_id)
+        .recv(trs_vft_id)
         .await
         .unwrap();
     assert_eq!(balance, 0.into());
@@ -193,32 +193,32 @@ async fn test_grant_role() {
     // grant admin role
     client
         .grant_admin_role(101.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
-    let admins = client.admins().recv(extended_vft_id).await.unwrap();
+    let admins = client.admins().recv(trs_vft_id).await.unwrap();
     assert_eq!(admins, vec![100.into(), 101.into()]);
 
     // revoke roles
     client
         .revoke_admin_role(101.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
-    let admins = client.admins().recv(extended_vft_id).await.unwrap();
+    let admins = client.admins().recv(trs_vft_id).await.unwrap();
     assert_eq!(admins, vec![100.into()]);
     client
         .revoke_minter_role(101.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
-    let minters = client.minters().recv(extended_vft_id).await.unwrap();
+    let minters = client.minters().recv(trs_vft_id).await.unwrap();
     assert_eq!(minters, vec![100.into()]);
     client
         .revoke_burner_role(101.into())
-        .send_recv(extended_vft_id)
+        .send_recv(trs_vft_id)
         .await
         .unwrap();
-    let burners = client.burners().recv(extended_vft_id).await.unwrap();
+    let burners = client.burners().recv(trs_vft_id).await.unwrap();
     assert_eq!(burners, vec![100.into()]);
 }

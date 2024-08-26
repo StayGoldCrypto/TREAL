@@ -5,13 +5,13 @@ use crate::services;
 use vft_service::{Service as VftService, Storage};
 
 #[derive(Default)]
-pub struct ExtendedStorage {
+pub struct TrsStorage {
     minters: HashSet<ActorId>,
     burners: HashSet<ActorId>,
     admins: HashSet<ActorId>,
 }
 
-static mut EXTENDED_STORAGE: Option<ExtendedStorage> = None;
+static mut EXTENDED_STORAGE: Option<TrsStorage> = None;
 
 #[derive(Encode, Decode, TypeInfo)]
 pub enum Event {
@@ -19,43 +19,43 @@ pub enum Event {
     Burned { from: ActorId, value: U256 },
 }
 #[derive(Clone)]
-pub struct ExtendedService {
+pub struct TrsService {
     vft: VftService,
 }
 
-impl ExtendedService {
+impl TrsService {
     pub fn seed(name: String, symbol: String, decimals: u8) -> Self {
         let admin = msg::source();
         unsafe {
-            EXTENDED_STORAGE = Some(ExtendedStorage {
+            EXTENDED_STORAGE = Some(TrsStorage {
                 admins: [admin].into(),
                 minters: [admin].into(),
                 burners: [admin].into(),
             });
         };
-        ExtendedService {
+        TrsService {
             vft: <VftService>::seed(name, symbol, decimals),
         }
     }
 
-    pub fn get_mut(&mut self) -> &'static mut ExtendedStorage {
+    pub fn get_mut(&mut self) -> &'static mut TrsStorage {
         unsafe {
             EXTENDED_STORAGE
                 .as_mut()
-                .expect("Extended vft is not initialized")
+                .expect("Trs vft is not initialized")
         }
     }
-    pub fn get(&self) -> &'static ExtendedStorage {
+    pub fn get(&self) -> &'static TrsStorage {
         unsafe {
             EXTENDED_STORAGE
                 .as_ref()
-                .expect("Extended vft is not initialized")
+                .expect("Trs vft is not initialized")
         }
     }
 }
 
 #[service(extends = VftService, events = Event)]
-impl ExtendedService {
+impl TrsService {
     pub fn new() -> Self {
         Self {
             vft: VftService::new(),
@@ -127,14 +127,14 @@ impl ExtendedService {
     }
 }
 
-impl ExtendedService {
+impl TrsService {
     fn ensure_is_admin(&self) {
         if !self.get().admins.contains(&msg::source()) {
             panic!("Not admin")
         };
     }
 }
-impl AsRef<VftService> for ExtendedService {
+impl AsRef<VftService> for TrsService {
     fn as_ref(&self) -> &VftService {
         &self.vft
     }

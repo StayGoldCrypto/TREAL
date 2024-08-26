@@ -1,5 +1,5 @@
 [package]
-name = "trs-vft-app"
+name = "extended-vft-app"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
@@ -17,7 +17,7 @@ env_logger.workspace = true
 gclient.workspace = true
 gtest.workspace = true
 gear-core.workspace = true
-trs_vft_wasm = { path = "../wasm" }
+extended_vft_wasm = { path = "../wasm" }
 tokio = "1"
 
 [build-dependencies]

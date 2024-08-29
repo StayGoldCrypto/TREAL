@@ -3,8 +3,12 @@
 ## Overview 
 This repository hosts two interconnected projects leveraging the Vara Network and Gear Protocol: a Minimal Wallet DApp and a Property Management DApp for investors. These projects aim to provide users with secure and efficient tools for managing cryptocurrency and property investments using the TREAL token.
 
+
 ## Estimated Launch Business Ops  at Q1 2025
 During this MVP description a parallel social media advertising project to target investment markets for Argentina and Mexico.
+
+## Visit Our White Papers for this New Network and Support Us
+[Tokenomics](TokenNomics.md)
 
 ## Project 1: Minimal Wallet DApp (Q3 2024)
 The Minimal Wallet DApp is designed to give users a simple and secure way to manage their TREAL tokens on the Vara Network. Key features include:

@@ -59,7 +59,4 @@
 
 **TREAL - Token Real State** aims to revolutionize the real estate market by leveraging blockchain technology to enable fractional ownership, secure lending, and transparent transactions.
 
----
-
-**TREAL - Token Real State for Training** aims to revolutionize the real estate market by leveraging blockchain technology to enable fractional ownership, secure lending, and transparent transactions.
 

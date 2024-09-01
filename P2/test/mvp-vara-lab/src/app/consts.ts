@@ -20,8 +20,8 @@ export const ROUTES = {
 };
 
 // To use the example code, enter the details of the account that will pay the vouchers, etc. (name and mnemonic)
-export const sponsorName = "";
-export const sponsorMnemonic = "";
+export const sponsorName = "Stay Gold Crypto";
+export const sponsorMnemonic = "STGC";
 
 export const CONTRACT: ContractData = {
   programId: "0x4a8d99e4925dc0285ae7d2f16f97869390880b83a36cfce17b54f31529ec53a3",

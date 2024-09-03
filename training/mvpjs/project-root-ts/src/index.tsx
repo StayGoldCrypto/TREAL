@@ -1,7 +1,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./App";   
+import App from "./App";   
 
 // Cargar variables de entorno desde el archivo .env
 // dotenv.config();
@@ -14,7 +14,7 @@ const colors = {
   },
 };
 
-const theme = extendTheme({ colors });
+// const theme = extendTheme({ colors });
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
  <App />

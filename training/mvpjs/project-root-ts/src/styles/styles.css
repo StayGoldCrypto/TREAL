@@ -1,14 +1,72 @@
 /* styles/styles.css */
-body {
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    font-size: 2.5em;
-    color: #333;
-}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .main-menu {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .main-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .login-form, .dashboard, .real-estate-form {
+            display: none;
+        }
+        .section {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .loan-item, .property-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .loan-item button, .property-item button {
+            margin-right: 5px;
+        }
+        .login-form {
+            max-width: 300px;
+            margin: auto;
+        }
+        .login-form input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .login-form button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }

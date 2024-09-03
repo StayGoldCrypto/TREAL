@@ -1,6 +1,7 @@
 
+
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import App from "./App";   
 
 // Cargar variables de entorno desde el archivo .env
@@ -16,9 +17,13 @@ const colors = {
 
 // const theme = extendTheme({ colors });
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+ReactDOM.render(
+<React.StrictMode>
  <App />
+</React.StrictMode>,
+document.getElementById('App')
 );
+
 
 /*
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

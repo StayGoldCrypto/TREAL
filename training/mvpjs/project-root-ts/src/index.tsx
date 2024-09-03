@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import { App } from "./App";   
 
 // Cargar variables de entorno desde el archivo .env
-dotenv.config();
+// dotenv.config();
 
 const colors = {
   brand: {
@@ -17,11 +17,16 @@ const colors = {
 const theme = extendTheme({ colors });
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+ <App />
+);
+
+/*
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <ChakraProvider theme={theme}>
     <App />
   </ChakraProvider>
 );
-
+*/
 
 /*
 

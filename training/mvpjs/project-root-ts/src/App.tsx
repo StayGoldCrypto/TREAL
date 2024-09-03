@@ -1,6 +1,6 @@
 import React from 'react';
 import Page from './components/Page';
-import './styles/styles.css';
+import '../styles/styles.css';
 
 const App: React.FC = () => {
     const content = (

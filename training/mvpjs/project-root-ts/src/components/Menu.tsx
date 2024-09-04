@@ -20,7 +20,7 @@ const menuItems: MenuItem[] = [
 
 const Menu: React.FC = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" expand="lg">
             <Navbar.Brand href="#">My Website</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

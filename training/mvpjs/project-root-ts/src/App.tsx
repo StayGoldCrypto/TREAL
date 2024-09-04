@@ -1,3 +1,4 @@
+/*
 import React, { useState, useEffect } from 'react';
 import Page from './components/Page';
 import './styles/styles.css';
@@ -98,7 +99,6 @@ const App: React.FC = () => {
                     <button onClick={logout}>Logout</button>
                     <div className={currentSection === 'home' ? 'section' : 'section hidden'}>
                         <h2>Home Section</h2>
-                        {/* Content for Home */}
                     </div>
                     <div className={currentSection === 'properties' ? 'section' : 'section hidden'}>
                         <h2>Properties</h2>
@@ -138,9 +138,9 @@ const App: React.FC = () => {
 };
 
 export default App;
+*/
 
 
-/*
 import React from 'react';
 import Page from './components/Page';
 import './styles/styles.css';
@@ -157,4 +157,4 @@ const App: React.FC = () => {
 };
 
 export default App;
-*/
+

@@ -92,8 +92,6 @@ const App: React.FC = () => {
             <a href="#" onclick="showSection('lender')">Lender Dashboard</a>
             <a href="#" onclick="showSection('real-estate')">Real Estate Properties</a>
         </div>
-            
-                <>
                     <button onClick={logout}>Logout</button>
                     <div className={currentSection === 'home' ? 'section' : 'section hidden'}>
                         <h2>Home Section</h2>

@@ -83,8 +83,18 @@ const App: React.FC = () => {
     };
 
     return (
+      <>
         <div>
             {isLoggedIn ? (
+                <div class="main-menu">
+                    <a href="#" onclick="showSection('home')">Home</a>
+                    <a href="#" onclick="showSection('borrower')">Borrower Dashboard</a>
+                    <a href="#" onclick="showSection('lender')">Lender Dashboard</a>
+                    <a href="#" onclick="showSection('real-estate')">Real Estate Properties</a>
+                    <a href="#" onclick="logout()">Logout</a>
+                </div>
+                <div class="container">
+                 
                     <button onClick={logout}>Logout</button>
                     <div className={currentSection === 'home' ? 'section' : 'section hidden'}>
                         <h2>Home Section</h2>
@@ -99,6 +109,7 @@ const App: React.FC = () => {
                             <button type="submit">Add Property</button>
                         </form>
                     </div>
+                </div>
             ) : (
                 <div id="login-form">
                     <h2>Login</h2>
@@ -122,6 +133,7 @@ const App: React.FC = () => {
                 </div>
             )}
         </div>
+      </>    
     );
 };
 

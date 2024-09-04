@@ -86,12 +86,6 @@ const App: React.FC = () => {
     return (
         <div>
             {isLoggedIn ? (
-       <div class="main-menu">
-            <a href="#" onclick="showSection('home')">Home</a>
-            <a href="#" onclick="showSection('borrower')">Borrower Dashboard</a>
-            <a href="#" onclick="showSection('lender')">Lender Dashboard</a>
-            <a href="#" onclick="showSection('real-estate')">Real Estate Properties</a>
-        </div>
                     <button onClick={logout}>Logout</button>
                     <div className={currentSection === 'home' ? 'section' : 'section hidden'}>
                         <h2>Home Section</h2>

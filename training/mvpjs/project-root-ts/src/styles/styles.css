@@ -11,6 +11,9 @@
             padding: 10px;
             text-align: center;
         }
+        .header h1 {
+            top-margin: 10px;    
+        }
         .main-menu {
             background-color: #333;
             color: white;

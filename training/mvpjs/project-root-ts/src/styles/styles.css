@@ -70,3 +70,15 @@
             border-radius: 5px;
             cursor: pointer;
         }
+
+.section {
+    display: none;
+}
+
+.section.hidden {
+    display: none;
+}
+
+.section:not(.hidden) {
+    display: block;
+}

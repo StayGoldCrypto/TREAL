@@ -149,12 +149,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App: React.FC = () => {
     const content = (
         <div>
-            <h1>Welcome to My Spectacular Website</h1>
-            <p>This is the home page of my awesome website.</p>
+            <h1>Welcome, thanks for your visit</h1>
+            <p>This is the home page of TREAL - Real State Token Website<br>by Stay Gold Crypto Team.</p>
         </div>
     );
 
-    return <Page title="My Spectacular Website" content={content} />;
+    return <Page title="TREAL - Real State Token Website" content={content} />;
 };
 
 export default App;

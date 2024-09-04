@@ -18,7 +18,7 @@ const menuItems: MenuItem[] = [
     { label: 'Token', link: 'https://sabitashop.in/test/mvpjs/token/' },
 ];
 
-const MenuDark: React.FC = () => {
+const Menu: React.FC = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
             <Navbar.Brand href="#">My Dark Website</Navbar.Brand>
@@ -114,6 +114,8 @@ const MenuTransparent: React.FC = () => {
         </Navbar>
     );
 };
+export default Menu;
+export default MenuDark;
 
 */
 

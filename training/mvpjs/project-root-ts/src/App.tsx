@@ -150,7 +150,7 @@ const App: React.FC = () => {
     const content = (
         <div>
             <h1>Welcome, thanks for your visit</h1>
-            <p>This is the home page of TREAL - Real State Token Website<br>by Stay Gold Crypto Team.</p>
+            <p>This is the home page of TREAL - Real State Token Website<br />by Stay Gold Crypto Team.</p>
         </div>
     );
 

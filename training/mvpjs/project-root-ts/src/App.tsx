@@ -91,7 +91,6 @@ const App: React.FC = () => {
             <a href="#" onclick="showSection('borrower')">Borrower Dashboard</a>
             <a href="#" onclick="showSection('lender')">Lender Dashboard</a>
             <a href="#" onclick="showSection('real-estate')">Real Estate Properties</a>
-            <!-- <a href="#" onclick="logout()">Logout</a> -->
         </div>
             
                 <>

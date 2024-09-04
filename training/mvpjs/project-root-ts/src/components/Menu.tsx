@@ -7,15 +7,15 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
+    { label: 'Register', link: 'https://sabitashop.in/test/mvpjs/register/' },
+    { label: 'Login', link: 'https://sabitashop.in/test/mvpjs/login/' },
+    { label: 'Properties', link: 'https://sabitashop.in/test/mvpjs/properties/' },
+    { label: 'Real Estate Acquisition', link: 'https://sabitashop.in/test/mvpjs/realstateadq/' },
     { label: 'Borrowers', link: 'https://sabitashop.in/test/mvpjs/borrowers/' },
     { label: 'Loan Application', link: 'https://sabitashop.in/test/mvpjs/loanapp/' },
     { label: 'Loan Disbursement', link: 'https://sabitashop.in/test/mvpjs/loandisa/' },
-    { label: 'Login', link: 'https://sabitashop.in/test/mvpjs/login/' },
-    { label: 'NFT', link: 'https://sabitashop.in/test/mvpjs/NFT/' },
-    { label: 'Properties', link: 'https://sabitashop.in/test/mvpjs/properties/' },
-    { label: 'Real Estate Acquisition', link: 'https://sabitashop.in/test/mvpjs/realstateadq/' },
-    { label: 'Register', link: 'https://sabitashop.in/test/mvpjs/register/' },
-    { label: 'Token', link: 'https://sabitashop.in/test/mvpjs/token/' },
+    // { label: 'NFT', link: 'https://sabitashop.in/test/mvpjs/NFT/' },
+    // { label: 'Token', link: 'https://sabitashop.in/test/mvpjs/token/' },
 ];
 
 const Menu: React.FC = () => {

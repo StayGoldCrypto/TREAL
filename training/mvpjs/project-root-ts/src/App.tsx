@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 import Page from './components/Page';
 import './styles/styles.css';
 
@@ -100,7 +99,6 @@ const App: React.FC = () => {
                             <button type="submit">Add Property</button>
                         </form>
                     </div>
-                </>
             ) : (
                 <div id="login-form">
                     <h2>Login</h2>

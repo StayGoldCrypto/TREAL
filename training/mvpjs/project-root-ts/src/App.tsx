@@ -144,6 +144,7 @@ export default App;
 import React from 'react';
 import Page from './components/Page';
 import './styles/styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App: React.FC = () => {
     const content = (

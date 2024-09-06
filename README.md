@@ -1,5 +1,8 @@
 # TREAL Network DApp Suite MVP
 
+## Try it on Gitpod
+<a href="https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/" target="_blank">Open in Gitpod</a>
+
 ## Overview 
 This repository hosts two interconnected projects leveraging the Vara Network and Gear Protocol: a Minimal Wallet DApp and a Property Management DApp for investors. These projects aim to provide users with secure and efficient tools for managing cryptocurrency and property investments using the TREAL token.
 

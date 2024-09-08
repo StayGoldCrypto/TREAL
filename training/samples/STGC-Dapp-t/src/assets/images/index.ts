@@ -1,4 +1,4 @@
-export { ReactComponent as CrossIcon } from './icons/stgc-logo.svg';
+export { ReactComponent as StgcIcon } from './icons/stgc-logo.svg';
 export { ReactComponent as CrossIcon } from './icons/cross.svg';
 export { ReactComponent as GearIcon } from './icons/gear.svg';
 export { ReactComponent as TwitterIcon } from './icons/twitter.svg';

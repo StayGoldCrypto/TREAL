@@ -11,7 +11,6 @@ import {
 import { useSailsCalls } from '@/app/hooks';
 import "./examples.css";
 
-
 function Home () {
     const sails = useSailsCalls();
     const { account } = useAccount();
@@ -47,7 +46,7 @@ function Home () {
                     </p>
                     <p
                         style={{
-                            maxWidth: "300px"
+                            maxWidth: "500px"
                         }}
                     >
                         state: {contractState}

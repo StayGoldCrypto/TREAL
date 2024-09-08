@@ -55,7 +55,7 @@ function Home () {
                 </div>
                 <Button onClick={async () => {
                     if (!sails) {
-                        console.log('No esta lsita el account o sails');
+                        console.log('No esta lista el account o sails');
                         return;
                     }
 

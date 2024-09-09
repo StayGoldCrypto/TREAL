@@ -1,0 +1,1182 @@
+[
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/tsconfig.node.json",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/REFERENCIAS.md",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/index.html",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/package.json",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/tsconfig.json",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/sprites",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/sprites/icons.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/favicon.ico",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/vfavicon.ico",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/fonts",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/fonts/Anuphan-Bold.woff2",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/fonts/Anuphan-Medium.woff2",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/fonts/anuphan-variable.woff2",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/fonts/Anuphan-Regular.woff2",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/fonts/Anuphan-SemiBold.woff2",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/fonts/Anuphan-Thin.woff2",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/fonts/Anuphan-Light.woff2",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/public/fonts/Anuphan-ExtraLight.woff2",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/utils",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/utils/rsearcher",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/utils/rsearcher/Cargo.lock",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/utils/rsearcher/src",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/utils/rsearcher/src/main.rs",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/utils/rsearcher/Cargo.toml",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/consts.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/balance",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/balance/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/balance/balance.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/accounts-modal",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/accounts-modal/accounts-modal.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/accounts-modal/accounts-modal.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/accounts-modal/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/account-button",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/account-button/account-button.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/account-button/account-button.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/account-button/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/wallet",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/wallet/wallet.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/ui/wallet/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/hooks",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/hooks/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/types",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/types/entities.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/types/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/assets",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/assets/subwallet.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/assets/enkrypt.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/assets/polkadot.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/assets/talisman.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/multiwallet/types.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/auth",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/auth/hooks.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/auth/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/auth/types.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/hooks.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/consts.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components/wallet-change",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components/wallet-change/WalletChange.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components/wallet-change/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components/wallet-change/WalletChange.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components/wallet-connect",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components/wallet-connect/WalletConnect.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components/wallet-connect/WalletConnect.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/components/wallet-connect/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/copy.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/subwallet.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/edit.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/enkrypt.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/polkadot.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/ava-vara.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/exit.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/talisman.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/nova.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/assets/images/icons/down.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/features/wallet/types.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/pages",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/pages/index.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/pages/home",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/pages/home/index.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/pages/home/home.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/pages/home/examples.css",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/pages/Landing",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/pages/Landing/index.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/pages/Landing/Landing.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/utils.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/consts.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/utils",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/utils/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/hooks",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/hooks/api.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/hooks/useVoucherUtils.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/hooks/useSailsUtils.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/hooks/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/hooks/useSignlessUtils.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/hooks/useContractUtils.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/SailsCalls",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/SailsCalls/types.d.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/SailsCalls/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/SailsCalls/SailsCalls.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/hocs",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app/hocs/index.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/consts.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ExampleComponents",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ExampleComponents/SignlessButtons",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ExampleComponents/SignlessButtons/SignlessButtons.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ExampleComponents/VoucherButtons",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ExampleComponents/VoucherButtons/VoucherButtons.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ExampleComponents/index.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ExampleComponents/NormalButtons",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ExampleComponents/NormalButtons/NormalButtons.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ExampleComponents/ButtonsContainer.css",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/loader",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/loader/Loader.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/loader/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/loader/Loader.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/loading-error",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/loading-error/loading-error.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/loading-error/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/loading-error/loading-error.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/api-loader",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/api-loader/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/api-loader/ApiLoader.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/loaders/api-loader/ApiLoader.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/select.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/table",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/table/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/table/table.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/table/table.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/container",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/container/container.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/container/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/container/container.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/balance",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/balance/Balance.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/balance/Balance.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/balance/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/alert",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/alert/alert.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/alert/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/alert/alert.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/alert/alert.types.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/input",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/input/Input.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/input/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/input/Input.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/sprite.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/data-table",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/data-table/data-table.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/data-table/data-table-column-header.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/data-table/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/data-table/data-table-pagination.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/data-table/data-table-page-sizing.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/data-table/data-table-header-actions.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/data-table/table.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/text",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/text/text.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/text/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/text/text.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/dropdown-menu.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/modal",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/modal/ModalBottom.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/modal/Modal.variants.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/modal/Modal.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/modal/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/modal/Modal.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/text-gradient",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/text-gradient/text-gradient.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/text-gradient/text-gradient.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/text-gradient/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/button",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/button/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/button/button.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/button/buttons.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/heading",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/heading/Heading.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/heading/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/heading/Heading.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/select.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/scroll-area",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/scroll-area/scroll-area.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/scroll-area/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/ui/scroll-area/scroll-area.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/not-found",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/not-found/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/not-found/not-found.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/not-found/not-found.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/not-found/assets",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/not-found/assets/images",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/not-found/assets/images/404.jpg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/not-found/assets/images/404.webp",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/logo",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/logo/logo.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/logo/logo.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/logo/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/header.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/header.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/accounts-modal",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/accounts-modal/AccountsModal.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/accounts-modal/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/account-button",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/account-button/style.css",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/account-button/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/account-button/AccountButton.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/accounts",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/accounts/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/accounts/Accounts.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/accounts/Accounts.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/account-info.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/account-info.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/wallet",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/wallet/Wallet.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/wallet/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/layout/header/account-info/wallet/Wallet.module.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/SignlessForm",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/SignlessForm/SignlessForm.css",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/components/SignlessForm/SignlessForm.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/vite-env.d.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/env.d.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/global.d.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/Context",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/Context/dappContext.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/Context/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/Context/sailsContext.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/bg.png",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/index.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/illustration-battleship.png",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/star.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/copy-decoded.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/ava-vara-black.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/stgc-logo.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/chevron-down.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/xvara-logo.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/coin.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/chevron-right.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/medium.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/chevron-left.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/caret-down.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/search.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/chevrons-right.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/cross.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/discord.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/vara-logo.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/github.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/chevrons-left.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/gear.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/images/icons/twitter.svg",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles/index.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles/utils",
+    "is_dir": true
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles/utils/_variables.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles/utils/_mixins.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles/utils/_index.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles/utils/_breakpoints.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles/_shared.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles/fonts.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/assets/styles/common.scss",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/app.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/src/main.tsx",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/yarn.lock",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/README.md",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/Dockerfile",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/mkdata.json",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/vite.config.ts",
+    "is_dir": false
+  },
+  {
+    "path": "/home/mark/apps/treal/repositorio/TREAL/training/samples/STGC-Dapp-t/postcss.config.js",
+    "is_dir": false
+  }
+]

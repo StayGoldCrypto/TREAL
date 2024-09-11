@@ -52,3 +52,32 @@ The Minimal Wallet DApp is designed for users to provide clarity and assure secu
 ## Training code samples for POLKADOT - GEAR PROTOCOL - VARA NETWORK : 
 1. **Repository**:
    [TREAL - Coding and Training Samples](training)
+
+## Tech Stack
+
+### Websites 
+1. [** VaraNetwork Developers **](https://vara.network/developers)
+1. [** Sails VaraNetwork **](https://sails-tutorials.vara.network/hello-world/hello-world)
+3. [** Wiki VaraNetwork **](https://wiki.vara.network/docs/welcome)
+4. [** VaraNetwork Discord **](https://discord.gg/x8ZeSy6S6K)
+5. [** VaraNetwork Official Website **](https://vara.network/)
+6. [** VaraNetwork Training ** ](https://vara.network/education-hub)
+7. [** Gear Tech **](https://www.gear-tech.io/en)
+8. [** Learn more about Gear IDEA**](https://wiki.vara.network/docs/idea/)
+9. [** Idea Gear Deploy - Polkadot Explorer **](https://idea.gear-tech.io/)
+10. [** Polkadot.js **](https://polkadot.js.org/)
+
+### Docs
+1. [** Gear STD Library **](https://docs.gear.rs/gstd/)
+2. [** Polkadot.js Docs (Sustrate) **](https://polkadot.js.org/docs/)
+
+### Repositories
+1. [** Vara-Lab Fungible Token Template **](https://github.com/Vara-Lab/VFT-Manager-Template)
+2. [** Vara-lab Dapp - Sails Template **](https://github.com/Vara-Lab/Chackra-UI-Vite-Sails-Template)
+3. [** Smartcontracts **](https://github.com/gear-foundation/dapps/tree/master/contracts)
+5. [** Smartcontracts Program Examples **]( https://wiki.vara.network/docs/examples/)
+6. [** Polkadot and Substrate **](https://github.com/polkadot-js/docs) 
+   
+```
+[** **]()
+```

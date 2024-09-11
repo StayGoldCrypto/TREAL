@@ -1,3 +1,23 @@
+import React from 'react';
+import Page from './components/Page';
+import './styles/styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const App: React.FC = () => {
+    const content = (
+        <div>
+            <h1>Welcome, thanks for your visit</h1>
+            <p>This is the home page of TREAL - Real State Token Website<br />by Stay Gold Crypto Team.</p>
+        </div>
+    );
+
+    return <Page title="TREAL - Real State Token Website" content={content} />;
+};
+
+export default App;
+
+
+
 /*
 import React, { useState, useEffect } from 'react';
 import Page from './components/Page';
@@ -139,23 +159,4 @@ const App: React.FC = () => {
 
 export default App;
 */
-
-
-import React from 'react';
-import Page from './components/Page';
-import './styles/styles.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-const App: React.FC = () => {
-    const content = (
-        <div>
-            <h1>Welcome, thanks for your visit</h1>
-            <p>This is the home page of TREAL - Real State Token Website<br />by Stay Gold Crypto Team.</p>
-        </div>
-    );
-
-    return <Page title="TREAL - Real State Token Website" content={content} />;
-};
-
-export default App;
 

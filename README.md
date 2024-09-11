@@ -72,7 +72,8 @@ The Minimal Wallet DApp is designed for users to provide clarity and assure secu
 1. [** VaraNetwork Examples and Docs **](https://wiki.vara.network/docs/examples/)
 2. [** Gear STD Library **](https://docs.gear.rs/gstd/)
 3. [** Learn VaraNetwork JS API **](https://wiki.vara.network/docs/api/)
-4. [** Polkadot.js Docs (Sustrate) **](https://polkadot.js.org/docs/)
+4. [** Vara Subscan - Block Chain Explorer **](https://vara.subscan.io/)
+5. [** Polkadot.js Docs (Sustrate) **](https://polkadot.js.org/docs/)
 
 ### Repositories
 1. [** Vara-Lab Fungible Token Template **](https://github.com/Vara-Lab/VFT-Manager-Template)

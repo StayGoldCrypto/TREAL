@@ -1,2 +1,0 @@
-[dependencies]
-pallet-property = { path = "../pallets/property" }

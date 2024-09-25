@@ -1,0 +1,29 @@
+[package]
+name = "stgc_treal_mvpjs"
+version = "0.1.0"
+authors = ["Stay Gold Crypto PMP <sabrina@staygoldcrypto.com>", "Stay Gold Crypto IT Architect <tnemexico@gmail.com>"]
+edition = "2021"  # Ensure this is set correctly for your project
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gstd = { git = "https://github.com/gear-tech/gear", tag = "v1.1.0"}
+substrate-api-client = "0.18.0"
+serde_derive = { version = "1.0", features = ["full"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+
+[build-dependencies]
+gtest = { git = "https://github.com/gear-tech/gear", tag = "v1.1.0"}
+
+[toochain]
+channel = "nightly-2023-09-18"
+targets = ["wasm32-unknown-unknown"]
+profile = "default"
+
+# Add other dependencies as needed
+frame-support = { version = "3.0.0", default-features = false }
+frame-system = { version = "3.0.0", default-features = false }
+sp-runtime-interface = "3.0.0"
+sp-runtime = "3.0.0"
+sp-std = "3.0.0"

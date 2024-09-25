@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Listing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .btn {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>List Your Property</h1>
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location">
+        </div>
+        <div class="form-group">
+            <label for="value">Value</label>
+            <input type="number" id="value">
+        </div>
+        <button class="btn" onclick="listProperty()">List Property</button>
+    </div>
+    <script>
+        async function listProperty() {
+            const location = document.getElementById('location').value;
+            const value = document.getElementById('value').value;
+
+            const response = await fetch('/list-property', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ location, value })
+            });
+
+            const result = await response.json();
+            if (result.success) {
+                alert('Property listed successfully!');
+            } else {
+                alert('Failed to list property');
+            }
+        }
+    </script>
+</body>
+</html>

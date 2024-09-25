@@ -1,2 +1,0 @@
-[dependencies]
-pallet-treal = { path = "../pallets/treal" }

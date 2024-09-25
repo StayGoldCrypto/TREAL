@@ -7,7 +7,7 @@ members = [ "backend", "frontend",
 #    "trs_token/io",
 #    "trs_token/state",
     "trs_token_vara"
-    ]
+    , "ttreal-token"]
 
 [workspace.package]
 homepage = "https://staygoldcrypto.com/tokens/TREAL"

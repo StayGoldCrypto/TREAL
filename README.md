@@ -56,17 +56,18 @@ The Minimal Wallet DApp is designed for users to provide clarity and assure secu
 ## Tech Stack
 
 ### Websites 
-1. [** VaraNetwork Developers **](https://vara.network/developers)
-2. [** Sails VaraNetwork **](https://sails-tutorials.vara.network/hello-world/hello-world)
-3. [** Wiki VaraNetwork **](https://wiki.vara.network/docs/welcome)
-4. [** VaraNetwork Discord **](https://discord.gg/x8ZeSy6S6K)
-5. [** VaraNetwork Official Website **](https://vara.network/)
-6. [** VaraNetwork Training ** ](https://vara.network/education-hub)
-7. [** GEAR Implementation UI Examples **](https://gear.foundation/developers)
-8. [** Gear Tech **](https://www.gear-tech.io/en)
-9. [** Learn more about Gear IDEA**](https://wiki.vara.network/docs/idea/)
-10. [** Idea Gear Deploy and Run, and Vara-Polkadot Explorer **](https://idea.gear-tech.io/)
-11. [** Polkadot.js **](https://polkadot.js.org/)
+1. [** Github Gear-js/api definitions **](https://github.com/gear-tech/gear-js/tree/main/api) 
+2. [** VaraNetwork Developers **](https://vara.network/developers)
+3. [** Sails VaraNetwork **](https://sails-tutorials.vara.network/hello-world/hello-world)
+4. [** Wiki VaraNetwork **](https://wiki.vara.network/docs/welcome)
+5. [** VaraNetwork Discord **](https://discord.gg/x8ZeSy6S6K)
+6. [** VaraNetwork Official Website **](https://vara.network/)
+7. [** VaraNetwork Training ** ](https://vara.network/education-hub)
+8. [** GEAR Implementation UI Examples **](https://gear.foundation/developers)
+9. [** Gear Tech **](https://www.gear-tech.io/en)
+10. [** Learn more about Gear IDEA**](https://wiki.vara.network/docs/idea/)
+11. [** Idea Gear Deploy and Run, and Vara-Polkadot Explorer **](https://idea.gear-tech.io/)
+12. [** Polkadot.js **](https://polkadot.js.org/)
 
 ### Docs
 1. [** VaraNetwork Examples and Docs **](https://wiki.vara.network/docs/examples/)

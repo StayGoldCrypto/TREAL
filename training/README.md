@@ -1,7 +1,7 @@
 # Some Training Samples of VARA NETWORK
 
 ## [StayGoldCrypto.com](https://staygoldcrypto.com) Experienced Development Roadmap Feedback : 
-1. [MVP Current Progress (Sep 24, 2024)](training/mvp)
+1. [MVP Current Progress (Sep 24, 2024)](https://github.com/StayGoldCrypto/TREAL/tree/main/training/mvp)
 2. [Gear Foundation Standards](https://github.com/gear-foundation/standards/tree/master)
 3. [Vara-Lab VFT template ](https://github.com/Vara-Lab/VFT-Manager-Template)
 4. [Gear Tech Sails Contract Templates List](https://github.com/gear-tech/sails)

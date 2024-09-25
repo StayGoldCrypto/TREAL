@@ -2,7 +2,7 @@
 
 ## Training code samples for POLKADOT - GEAR PROTOCOL - VARA NETWORK : 
 1. **Repositories for Validation by VaraTeam**:
-2. [MVP Current test release](training/mvp)
+2. [MVP Current Test Backend and Frontend Release](training/mvp)
 3. [TREAL - Current Test Token Real State  ](https://github.com/StayGoldCrypto/TREAL/tree/main/training/mvp/backend-app/ttreal-token)
 4. [TREAL - Historical TRS Test Token Real State ](samples/TRS-token-real-state/trs_token_vara)
 5. [...](#)

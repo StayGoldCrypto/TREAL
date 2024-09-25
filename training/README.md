@@ -5,12 +5,12 @@
 2. [Gear Foundation Standards](https://github.com/gear-foundation/standards/tree/master)
 3. [Vara-Lab VFT template ](https://github.com/Vara-Lab/VFT-Manager-Template)
 4. [Gear Tech Sails Contract Templates List](https://github.com/gear-tech/sails)
-5. [Several Samples with other discontinued libraries](training/samples/TRS-token-real-state)
-6. [Vara-lab Chakra sails-UI Repository clone (Reference React Dapp for Vara transactions and modal communications )](training/samples/STGC-Dapp-t)
+5. [Several Samples with other discontinued libraries](https://github.com/StayGoldCrypto/TREAL/tree/main/training/samples/TRS-token-real-state)
+6. [Vara-lab Chakra sails-UI Repository clone (Reference React Dapp for Vara transactions and modal communications )](https://github.com/StayGoldCrypto/TREAL/tree/main/training/samples/STGC-Dapp-t)
 7. [First VFT delivery (but discontinue libs)](https://github.com/StayGoldCrypto/TREAL/tree/main/training/samples/TRS-token-real-state/trs_token_vara)
 8. [Gear Dapp (first dapp tried but replaced by Vara-lab sail-UI)](https://github.com/StayGoldCrypto/TREAL/tree/main/P1/d-app)
 9. [First TRS Token Repository Delivery Aug 23, 2024](https://github.com/StayGoldCrypto/TREAL/tree/main/training/samples/TRS-token-real-state)
-10. [Gear Academy Basic Course (Pending Validation since Aug 13, 2024)](training/stgc-gear-academy)
+10. [Gear Academy Basic Course (Pending Validation since Aug 13, 2024)](https://github.com/StayGoldCrypto/TREAL/tree/main/training/stgc-gear-academy)
 11. [First TREAL Repository Version Aug  8,2024](https://github.com/StayGoldCrypto/TREAL/)
 12. [Vara-lab Hello World Contract  Jul 31,2024](https://github.com/Vara-Lab/Hello-World)
 13. [Websites Visited](https://github.com/StayGoldCrypto/TREAL/blob/main/README.md#websites)
@@ -27,8 +27,8 @@
    
 ## Training code samples for POLKADOT - GEAR PROTOCOL - VARA NETWORK : 
 **Repositories for Validation by VaraTeam**:
-1. [MVP Current Test Backend and Frontend Release](training/mvp)
+1. [MVP Current Test Backend and Frontend Release](https://github.com/StayGoldCrypto/TREAL/tree/main/training/mvp) 
 2. [TREAL - Current Test Token Real State  ](https://github.com/StayGoldCrypto/TREAL/tree/main/training/mvp/backend-app/ttreal-token)
-3. [TREAL - Historical TRS Test Token Real State ](samples/TRS-token-real-state/trs_token_vara)
+3. [TREAL - Historical TRS Test Token Real State ](https://github.com/StayGoldCrypto/TREAL/tree/main/training/samples/TRS-token-real-state/trs_token_vara)
 4. [...](#)
    

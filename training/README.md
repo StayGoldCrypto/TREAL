@@ -1,12 +1,5 @@
 # Some Training Samples of VARA NETWORK
 
-## Training code samples for POLKADOT - GEAR PROTOCOL - VARA NETWORK : 
-1. **Repositories for Validation by VaraTeam**:
-2. [MVP Current Test Backend and Frontend Release](training/mvp)
-3. [TREAL - Current Test Token Real State  ](https://github.com/StayGoldCrypto/TREAL/tree/main/training/mvp/backend-app/ttreal-token)
-4. [TREAL - Historical TRS Test Token Real State ](samples/TRS-token-real-state/trs_token_vara)
-5. [...](#)
-   
 ## [StayGoldCrypto.com](https://staygoldcrypto.com) Experienced Development Roadmap Feedback : 
 1. [MVP Current Progress (Sep 24, 2024)](training/mvp)
 2. [Gear Foundation Standards](https://github.com/gear-foundation/standards/tree/master)
@@ -31,5 +24,11 @@
 21. [Introduction TREAL presentation file to GEAR (Marina Jun 10, 2024)](#)
 22. [Contact email from Marina - Gear Foundation May 21, 2024](#)
 23. [...](#)
-24. [...](#)
+   
+## Training code samples for POLKADOT - GEAR PROTOCOL - VARA NETWORK : 
+**Repositories for Validation by VaraTeam**:
+1. [MVP Current Test Backend and Frontend Release](training/mvp)
+2. [TREAL - Current Test Token Real State  ](https://github.com/StayGoldCrypto/TREAL/tree/main/training/mvp/backend-app/ttreal-token)
+3. [TREAL - Historical TRS Test Token Real State ](samples/TRS-token-real-state/trs_token_vara)
+4. [...](#)
    

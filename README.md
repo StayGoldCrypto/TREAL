@@ -1,6 +1,7 @@
 # TREAL Network DApp Suite MVP
 
 ## [PitchDeck](https://staygoldcrypto.com/test/pp/deck.php)
+## [Demos - Current Progress](https://github.com/StayGoldCrypto/TREAL/blob/main/training/mvp/frontend-app/TREAL-w-README.md)
 
 ## Try it on Gitpod
 <a href="https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/" target="_blank">Open in Gitpod</a>

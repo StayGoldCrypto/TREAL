@@ -1,5 +1,7 @@
 # TREAL Network DApp Suite MVP
 
+## [PitchDeck](https://staygoldcrypto.com/test/pp/deck.php)
+
 ## Try it on Gitpod
 <a href="https://gitpod.io/#https://github.com/StayGoldCrypto/TREAL/" target="_blank">Open in Gitpod</a>
 
@@ -21,9 +23,10 @@ The Minimal Wallet DApp is designed to give users a simple and secure way to man
 - **Detailed Road Map**: [TREAL - P1 - RoadMap](P1/README.md)
 
 ### Technology Stack
-- **Frontend**: TypeScript, React
-- **Blockchain**: Vara Network, Gear Protocol
-- **Tools**: Polkadot.js, Ethers.js
+- **Frontend**: Nodejs, TypeScript, React, Next.js,
+- **Backend** Rust Wasm, Rust Cli, API/PHP/MySQL for Centralized Admin Topics.
+- **Blockchain**: Vara Network, Gear Protocol, Other Blockchains
+- **Tools**: Sails-js, Polkadot.js, Ethers.js
 
 ### Installation and Setup
 1. **Repository**:
@@ -36,9 +39,10 @@ The Minimal Wallet DApp is designed for users to provide clarity and assure secu
 - **Integration**: Seamless connection with the Vara Network and Gear Protocol.
 
 ### Technology Stack
-- **Frontend**: TypeScript, React
-- **Blockchain**: Vara Network, Gear Protocol
-- **Tools**: Polkadot.js, Ethers.js
+- **Frontend**: Nodejs, TypeScript, React, Next.js,
+- **Backend** Rust Wasm, Rust Cli, API/PHP/MySQL for Centralized Admin Topics.
+- **Blockchain**: Vara Network, Gear Protocol, Other Blockchains
+- **Tools**: Sails-js, Polkadot.js, Ethers.js
 - **Detailed Road Map**: [TREAL - P2 - RoadMap](P2/README.md)
 
 ### Installation and Setup

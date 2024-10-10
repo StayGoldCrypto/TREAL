@@ -1,4 +1,4 @@
-# Simple Wallet DApp on Vara Network
+# Simple Wallet DeFi on Vara Network
 
 ## Notice
 This demo is partial and only shows the main idea for this project, is not fully functional with VaraNetwork smart contracts yet.
@@ -52,6 +52,8 @@ This project is a simple, user-friendly decentralized application (DApp) for man
   
 This roadmap could be extended in time by about 100% more preventing project deviations
 
+
+<!--
 ## Installation
 
 ### Prerequisites
@@ -63,4 +65,4 @@ This roadmap could be extended in time by about 100% more preventing project dev
    ```bash
    git clone https://github.com/StayGoldCrypto/TREAL/P1/polkadot-varanetwork-mini-wallet-dapp/d-app.git
    cd polkadot-varanetwork-mini-wallet-dapp
-
+-->

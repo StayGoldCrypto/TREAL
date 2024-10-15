@@ -1,3 +1,5 @@
+# [** Queries about VaraNetwork - Learning process **](https://github.com/StayGoldCrypto/TREAL/blob/main/training/VaraNetwork-Learning-Process.txt)
+
 # Some Training Samples of VARA NETWORK
 
 ## [StayGoldCrypto.com](https://staygoldcrypto.com) Experienced Development Roadmap Feedback : 
